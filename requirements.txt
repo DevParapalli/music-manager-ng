@@ -1,0 +1,7 @@
+pydub
+simpleaudio
+pyaudio
+# FFPlay - Included with FFmpeg
+# AVPlay - Included with libav
+yt-dlp
+requests
