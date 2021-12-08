@@ -1,7 +1,11 @@
 pydub
 simpleaudio
-pyaudio
+pyaudio ; sys_platform == 'linux' or sys_platform == 'darwin'
 # FFPlay - Included with FFmpeg
 # AVPlay - Included with libav
 yt-dlp
 requests
+py-cui
+windows-curses ; platform_system == 'Windows'
+pipwin ; platform_system == 'Windows'
+

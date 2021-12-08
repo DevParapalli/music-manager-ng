@@ -81,6 +81,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+!build.spec
 
 # Installer logs
 pip-log.txt
@@ -238,3 +239,6 @@ $RECYCLE.BIN/
 
 tmp/**
 !tmp/.gitinclude
+
+vendor_bin/**
+!vendor_bin/.gitinclude
