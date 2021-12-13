@@ -8,4 +8,6 @@ requests
 py-cui
 windows-curses ; platform_system == 'Windows'
 pipwin ; platform_system == 'Windows'
-
+wcwidth
+mutagen
+pygame
