@@ -11,3 +11,4 @@ pipwin ; platform_system == 'Windows'
 wcwidth
 mutagen
 pygame
+phrydy

@@ -5,7 +5,8 @@ from pathlib import Path
 from filetype import guess
 from mutagen import mp3, mp4
 
-def get_directory(dir: str, ext: list=['mp3', 'wav', 'flac', 'm4a', 'aac', 'ogg']) -> tuple[list, list]:
+
+def get_directory(dir: str, ext: list = ['mp3', 'wav', 'flac', 'm4a', 'aac', 'ogg']) -> tuple[list, list]:
     # https://stackoverflow.com/a/59803793
     subfolders, files = [], []
 
@@ -22,6 +23,7 @@ def get_directory(dir: str, ext: list=['mp3', 'wav', 'flac', 'm4a', 'aac', 'ogg'
         files.extend(f)
 
     return subfolders, files
+
 
 def get_image_key(keys):
     if 'APIC:Cover' in keys:
@@ -67,5 +69,3 @@ def get_song_metadata(file: str):
                 "bitrate": audio.info.bitrate,
             }
         }
-
-

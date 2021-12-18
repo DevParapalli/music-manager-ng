@@ -1,5 +1,7 @@
 import threading
 from ui import run_ui
+
+
 def thread_alpha():
     """Thread in-charge of UI
     Exit on UI Exit Event.
@@ -10,6 +12,7 @@ def thread_alpha():
 def thread_beta():
     """Thread in-charge of audio"""
     pass
+
 
 def thread_gamma():
     """Empty thread"""
